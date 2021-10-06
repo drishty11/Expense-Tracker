@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   /* background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), rgb(180, 180, 255,0.4) center url('./images//Isometric.png') no-repeat; */
+   /* background: right url('./images//Isometric.png') no-repeat; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root, body, html {
+  height: 100%;
+}
+
+/* https://www.google.com/search?q=money+and+expenses+and+income+background+images&tbm=isch&ved=2ahUKEwjrsdKzw6bzAhUOnksFHe0jAT0Q2-cCegQIABAA&oq=money+and+expenses+and+income+background+images&gs_lcp=CgNpbWcQA1DbngJY37MCYPu2AmgAcAB4AIABe4gB9wmSAQQwLjExmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=a5ZVYavQCY68rtoP7ceE6AM&bih=754&biw=1536#imgrc=N5B6h9VxyjBTVM&imgdii=l_zduWghCrkp3M */
