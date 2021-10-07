@@ -53,7 +53,7 @@ export const List = () => {
                             <Avatar className={transaction.type === 'Income' ? classes.avatarIncome : classes.avatarExpense} style={{marginRight:'8px'}}>
                                 <MoneyOff />
                             </Avatar>
-                            <ListItemText primary={transaction.category} secondary={`${transaction.amount} - ${transaction.date}`}></ListItemText>
+                            <ListItemText primary={transaction.category} secondary={`${transaction.amount}$ - ${transaction.date}`}></ListItemText>
                             <ListItemSecondaryAction>
                                 <IconButton edge="end" aria-label="delete" onClick={() => deleteTransaction(transaction.id)}>
                                     <Delete />

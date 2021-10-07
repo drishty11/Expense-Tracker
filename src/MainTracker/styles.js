@@ -47,7 +47,7 @@ export default makeStyles((theme) => ({
     margin: 'auto 0',
   },
   btn: {
-    width: '70px',
+    width: 'fit-content',
     textDecoration: "none",
     textAlign: 'center',
     fontSize: "16px",

@@ -15,7 +15,7 @@ export const FrontContainer = () => {
                 <Typography component="div" style={{fontSize:'86px', color: '#3A00EA'}}>Expense Tracker</Typography>
                 <Typography variant="h6" style={{marginBottom: '10px', marginLeft: '8px', color: '#5925F8'}}>Powered by Speechly</Typography>
               </Box>
-              <Link to="/expensetracker" className={classes.btn}>Started</Link>
+              <Link to="/expensetracker" className={classes.btn}>Transactions</Link>
           </Grid>
         </Grid>
       </Box>

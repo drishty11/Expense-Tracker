@@ -1,4 +1,4 @@
-import React, {useContext} from 'react'
+import {useContext} from 'react'
 import { ExpenseTrackerContext } from './Context/Context';
 import { incomeCategories, expenseCategories, resetCategories } from './Utils/Categories';
 
