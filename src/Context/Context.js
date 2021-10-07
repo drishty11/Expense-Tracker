@@ -2,8 +2,8 @@ import React, {useReducer, createContext} from 'react';
 import contextReducer from './ContextReducer';
 
 // const initialState = [];
-// const initialState = JSON.parse(localStorage.getItem('transactions')) || [];
-const initialState = JSON.parse(localStorage.getItem("transactions") || []);
+const initialState = JSON.parse(localStorage.getItem('transactions')) || [{amount: 400, category: "Deposits", type: "Income", date: "2021-10-02", id: "1ee3f9ca-254b-47fe-a6de-af38cdb32341"}, {amount: 100, category: "Car", date: "2021-10-06", id: "5ae8e1ab-48e3-4530-b423-6c414f40aee3", type: "Expenses"}];
+
 console.log(initialState)
 
 export const ExpenseTrackerContext = createContext(initialState);
